@@ -10,7 +10,7 @@ Disabled All
 
 Type Hints
 
-![screenshots/type-hint.png]
+![Type Hint](screenshots/type-hint.png)
 
 ```
 "rust-analyzer.inlayHints.typeHints": false
@@ -18,7 +18,7 @@ Type Hints
 
 Parameter Hints
 
-![screenshots/parameter-hints.png]
+![Parameter Hint](screenshots/parameter-hints.png)
 
 ```
 "rust-analyzer.inlayHints.parameterHints": false
