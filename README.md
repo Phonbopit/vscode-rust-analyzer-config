@@ -2,6 +2,8 @@
 
 I don't like a inlay hints, so I try to disabled it, mostly I disabled parameter hints, but left type hints (because its same as you declare variables with a type).
 
+## VS Code
+
 Auto format on save
 
 ```
@@ -43,5 +45,16 @@ Setting : `settings.json`
     },
     "rust-analyzer.inlayHints.typeHints": false,
     "rust-analyzer.inlayHints.parameterHints": false
+}
+```
+
+## Neovim
+
+`:CocConfig` - file located at `~/.config/nvim/coc-settings.json`
+
+```json
+{
+	"rust-analyzer.inlayHints.typeHints": false,
+	"rust-analyzer.inlayHints.typeHintsSeparator": false
 }
 ```
