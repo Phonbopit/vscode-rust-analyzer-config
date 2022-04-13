@@ -2,6 +2,15 @@
 
 I don't like a inlay hints, so I try to disabled it, mostly I disabled parameter hints, but left type hints (because its same as you declare variables with a type).
 
+Auto format on save
+
+```
+"[rust]": {
+    "editor.defaultFormatter": "matklad.rust-analyzer",
+    "editor.formatOnSave": true
+}
+```
+
 Disabled All
 
 ```
@@ -22,4 +31,17 @@ Parameter Hints
 
 ```
 "rust-analyzer.inlayHints.parameterHints": false
+```
+
+Setting : `settings.json`
+
+```json
+{
+    "[rust]": {
+        "editor.defaultFormatter": "matklad.rust-analyzer",
+        "editor.formatOnSave": true
+    },
+    "rust-analyzer.inlayHints.typeHints": false,
+    "rust-analyzer.inlayHints.parameterHints": false
+}
 ```
