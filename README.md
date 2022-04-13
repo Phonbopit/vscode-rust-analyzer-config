@@ -18,7 +18,7 @@ Type Hints
 
 Parameter Hints
 
-![Parameter Hint](screenshots/parameter-hints.png)
+![Parameter Hint](screenshots/parameter-hint.png)
 
 ```
 "rust-analyzer.inlayHints.parameterHints": false
